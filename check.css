@@ -1,0 +1,33 @@
+/* Basic styling for projects section */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project {
+  max-width: 300px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.project h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.project p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+/* Add more styles and animations as desired */
